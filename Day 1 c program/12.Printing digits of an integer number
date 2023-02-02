@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main()
+{
+	int n,temp,b=0;
+	printf("Enter a intger:");
+	scanf("%d",&n);
+	temp=n;
+	while(n!=0)
+	{
+		n=n/10;
+		b++;
+	}
+	printf("%d",b);
+}
